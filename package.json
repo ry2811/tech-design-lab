@@ -1,0 +1,11 @@
+{
+  "name": "tech-design-lab",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev:infrawatch": "npm --prefix apps/infrawatch run dev",
+    "dev:uxlab": "npm --prefix apps/uxlab run dev",
+    "build": "npm --prefix apps/infrawatch run build && npm --prefix apps/uxlab run build"
+  }
+}

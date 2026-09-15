@@ -92,7 +92,3 @@ Create two Vercel projects from the same repository and set their Root Directory
 
 - `apps/infrawatch`
 - `apps/uxlab`
-
-## Portfolio scope
-
-These applications are interactive portfolio demonstrations. The infrastructure incidents, participant records and business values are simulated. My contribution includes product framing, UX/UI design, frontend engineering and serverless API implementation. Detailed decisions and proposed validation methods are documented in each app's `CASE_STUDY.md`.
